@@ -1,12 +1,12 @@
-public class Object {
-    public static void main(String[] args) {
+// public class Object {
+//     public static void main(String[] args) {
     
   
-    int numberofWheels;
-    String brandName,color;
-    void start();
+//     int numberofWheels;
+//     String brandName,color;
+//     void start();
     
 
-    }
-}
-Vechile car = new Vechile();
+//     }
+// }
+// Vechile car = new Vechile();
