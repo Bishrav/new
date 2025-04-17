@@ -1,6 +1,6 @@
 public class Class {
     public static void main(String[] args) {
-        byte age = 123;
+        long age = 1234523;
         System.out.println(age);
     }
 }
