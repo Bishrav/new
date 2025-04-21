@@ -10,7 +10,14 @@ public class Statement {
         System.out.println("enter the number for y");
         int y = sc.nextInt();
         if (x / y == 2){
-            System.out.println("that is divisible");
+            System.out.println("that is even");
         }
+        else if (x > 0){
+            System.out.println("That is positive number");
+        }
+        else {
+            System.out.println("The number are negative");
+        }
+
     }
 }
