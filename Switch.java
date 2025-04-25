@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 public class Switch {
@@ -6,6 +7,9 @@ public class Switch {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the day you want");
         int day = sc.nextInt();
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("enter the day you want");
+        int activity = sc1.nextInt();
         switch(day) {
             case 1:
                 System.out.println("Sunday");
@@ -25,9 +29,14 @@ public class Switch {
             case 6:
                 System.out.println("Friday");
                 break;
-            case 7:
-                System.out.println("Saturday");
+            case 7: switch(activity){
+                case 1:
+                System.out.println("college day");
                 break;
+                default:
+                System.out.println("off");
+                break;
+            }
             default:
                 System.out.println("No days found");;
         }
