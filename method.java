@@ -10,6 +10,10 @@ public class method {
         sumCalculate(9 ,10);
         sumCalculate(4 ,3);
         divCalculate(4,2);
+        int result = multiply(7, 8);
+        System.out.print("the multiply is"+result);
+        int fuii = multiply(7, 8);
+        System.out.print("the multiply is"+fuii);
 
     }
     public static void sumCalculate(int a , int b) {
@@ -17,7 +21,19 @@ public class method {
         
     }
     public static void divCalculate(int a, int b) {
-        System.out.print("The divide is"+(a/b));
+        System.out.println("The divide is"+(a/b));
+    }
+
+    public static int multiply(int a , int b) {
+        int result = a * b;
+        return result;
+        
+    }
+    public static int Subtract(int a , int b) {
+        int fuii = a - b;
+        return fuii;
+        
     }
     
 }
+//if there is no void we have to return for example in line number 25 and 21
