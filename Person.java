@@ -1,5 +1,8 @@
 public class Person {
     private String name;
+    public void setAge(int age) {
+        this.age = age;
+    }
     private int age;
 
     public Person(String name , int age){
